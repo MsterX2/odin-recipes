@@ -1,0 +1,12 @@
+#tittle {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+    font: bolder;
+}
+
+* {
+    outline: 2px solid red;
+}

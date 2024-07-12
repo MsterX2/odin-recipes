@@ -1,0 +1,24 @@
+#tittle {
+    text-align: center;
+    color: brown;
+}
+
+p {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#muestra {
+    width: auto;
+    height: 500px;
+}
+
+ul,
+ol {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#descrip {
+    text-align: center;
+    color: chocolate;
+}
