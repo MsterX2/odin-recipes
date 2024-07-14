@@ -8,9 +8,8 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#muestra {
-    width: auto;
-    height: 500px;
+#imagen {
+    height: 600px;
 }
 
 ul,
@@ -18,7 +17,38 @@ ol {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+ul {
+    border-top: solid red;
+}
+
 #descrip {
     text-align: center;
     color: chocolate;
+}
+
+.container {
+    background-color: aqua;
+    border: red;
+    display: flex;
+}
+
+.container div {
+    flex: auto;
+}
+
+.child {
+    display: flex;
+    flex-direction: column;
+}
+
+.child div {
+    flex: 1;
+}
+
+#description {
+    border-bottom: solid red;
+}
+
+#ingredientes {
+    border-top: solid red;
 }
