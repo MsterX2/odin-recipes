@@ -25,12 +25,13 @@ ol {
 
 .container {
     background-color: aqua;
-    border: red solid;
+    /* border: red solid; */
     display: flex;
 }
 
 .container div {
     flex: auto;
+    border: red solid;
 }
 
 .child {
@@ -40,4 +41,6 @@ ol {
 
 .child div {
     flex: 1;
+    padding-left: 3px;
+    padding-right: 3px;
 }
