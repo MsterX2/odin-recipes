@@ -28,7 +28,7 @@ ul {
 
 .container {
     background-color: aqua;
-    border: red;
+    border: red solid;
     display: flex;
 }
 
@@ -43,12 +43,4 @@ ul {
 
 .child div {
     flex: 1;
-}
-
-#description {
-    border-bottom: solid red;
-}
-
-#ingredientes {
-    border-top: solid red;
 }
